@@ -44,6 +44,14 @@ body{
 }
 
 /* Header section */
+
+.main-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 .main-header__brand img{
     width: 50px;
 }
