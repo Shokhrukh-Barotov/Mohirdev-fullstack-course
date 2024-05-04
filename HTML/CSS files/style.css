@@ -4,4 +4,16 @@
     border: 5px solid blueviolet;
     margin: 10px;
     height: 150px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.main-navigation__item a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-navigation__item a:active{
+    background-color: greenyellow;
 }
