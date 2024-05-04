@@ -17,6 +17,32 @@ body{
     clear: both;
 }
 
+.section-subtitle{
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+    margin-top: 5px;
+}
+
+.blur-line{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
 /* Header section */
 .main-header__brand img{
     width: 50px;
@@ -158,35 +184,61 @@ body{
     width: 70%;
 }
 
-.section-subtitle{
-    letter-spacing: 2px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #797979;
-    text-transform: uppercase;
-}
-
-.section-title{
-    font-size: 42px;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: #05364d;
-    margin-top: 5px;
-}
-
 .about-me__description{
     font-size: 14px;
     font-weight: 300;
     color: #797979;line-height: 27px;
 }
 
-.blur-line{
-    display: inline-block;
-    margin-left: 5px;
-    width: 80px;
-    height: 4px;
-    background-color: rgba(237, 35, 159, 0.6);
-    filter: blur(4px);
-    border-radius: 4px;
+/*Services section*/
+
+.services{
+    padding-top: 100px;
 }
 
+.service-card{
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #f8faff;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.service-card__title{
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.service-card__description{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.service-card__link{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+
+.service-card img{
+    width: 200px;
+}
+
+.service-card:hover{
+    background-color: #5f30ff;
+}
+
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__link,
+.service-card:hover .service-card__description{
+    color: #ffffff;
+}
