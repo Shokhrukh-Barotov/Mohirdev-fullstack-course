@@ -101,6 +101,18 @@ body{
     cursor: pointer;
 }
 
+.main-section__social-networks a{
+    color: #8fa1aa;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30x;
+    cursor: pointer;
+}
+
+.main-section__social-networks a:hover i{
+    color: #1c44e4;
+}
+
 /*Statistics*/
 
 .statistics{
@@ -110,4 +122,20 @@ body{
 .statistics__item{
     display: inline-block;
     background-color: #f8faff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 50px;
+    width: 150px;
+}
+
+.statistics__number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1c44e4;
+}
+
+.statistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
 }
