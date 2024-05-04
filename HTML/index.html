@@ -8,40 +8,75 @@
 </head>
 <body>
   <!-- Header section -->
-  <header class="main-header">
-    <nav class="main-navigation">
-      <ul class="main-navigation__items">
-        <li class="main-navigation__item">
-          <a href="#">Main</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">About Me </a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Services</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">My clients</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Portfolio</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Blog</a>
-        </li>
-        <li class="main-navigation__item">
-          <a href="#">Partners</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <div class="container">
+    <header class="main-header to-uppercase">
+      <div class="main-header__brand">
+        <a href="index.html">
+          <img src="./images/logo.jpg" alt="Logo">
+        </a>
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation__items">
+          <li class="main-navigation__item active">
+            <a href="#">Main</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">About Me </a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Services</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">My clients</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Portfolio</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Blog</a>
+          </li>
+          <li class="main-navigation__item">
+            <a href="#">Partners</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
   <!--/Header section -->
-  
+
   <!--Main Section-->
-  <section id="main-section">
-    <h1>Main</h1>
-  </section>
+  <div class="container">
+    <section id="main-section" class="main-section">
+      <div class="main-section__info to-uppercase">
+        <h4 class="main-section__welcome">Hi, eweryone</h4>
+        <h1 class="main-section__introduction">I am Shokhrukh</h1>
+        <h3 class="main-section__position">Junior Developer</h3>
+        <button type="button" class="main-section__action">
+          See my work
+        </button>
+      </div>
+  
+      <div class="main-section__image">
+        <img src="./images/my_photo.png" alt="My photo">
+      </div>
+    </section>
+    <div class="clearfix"></div>
+  </div>
   <!--/Main section-->
+
+  <!--Statistics-->
+  <div class="container">
+    <section id="statistics" class="statistics">
+      <div class="statistics__item">
+        <h3 class="statistics__number">
+          15k+
+        </h3>
+        <p class="statistics__title">
+          Happies clients
+        </p>
+      </div>
+    </section>
+  </div>
 
   <!--About me section-->
   <section id="about-me">

@@ -1,19 +1,113 @@
-.main-header{
-    background-color: rgb(214, 214, 231);
-    padding: 10px;
-    border: 5px solid blueviolet;
-    margin: 10px;
-    height: 150px;
-    text-align: left;
-    vertical-align: top;
+/* core styles */
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.to-uppercase{
+    text-transform: uppercase;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Header section */
+.main-header__brand img{
+    width: 50px;
+}
+
+.main-header__brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item{
+    display: inline-block;
+}
+
+.main-navigation__item a{
+    color: #05364d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .main-navigation__item a:hover{
-    text-decoration: none;
-    color: black;
+    color: #efb5df;
 }
 
+.main-navigation__item.active a{
+    color: #efb5df;
+}
 
-.main-navigation__item a:active{
-    background-color: greenyellow;
+/* Main section */
+.main-section{
+    padding: 100px 30px;
+}
+
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+
+.main-section__image{
+    text-align: right;
+}
+
+.main-section__image img{
+    width: 400px;
+}
+
+.main-section__welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2;
+    color: #797979;
+}
+
+.main-section__introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364e;
+}
+
+.main-section__position{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #05364e;
+}
+
+.main-section__action{
+    margin-top: 30px;
+    border: none;
+    background-color: #1c44e4;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+/*Statistics*/
+
+.statistics{
+    padding-top: 100px;
+}
+
+.statistics__item{
+    display: inline-block;
+    background-color: #f8faff;
 }
