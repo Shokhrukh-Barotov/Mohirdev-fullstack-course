@@ -320,12 +320,14 @@ body{
     position: absolute;
     top: 0;
     right: 0;
+    padding-right: 10px;
 }
 
-.portfolio-item-2{
+.portfolio-item-3{
     position: absolute;
-    top: 0;
+    top: 466px;
     right: 0;
+    padding-right: 10px;
 }
 .portfolio-item_image{
     width: 100%;
