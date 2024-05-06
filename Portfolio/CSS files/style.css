@@ -1,6 +1,7 @@
 /* core styles */
 
 body{
+    margin: 0;
     font-family: sans-serif;
 }
 
@@ -88,6 +89,14 @@ body{
 }
 
 /* Main section */
+
+.main-banner{
+    background-image: url("../images/белый-фрактальный-фон-или-текстурный-компьютер-создали-иллюстрацию-233408097.webp");
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+
 .main-section{
     padding: 100px 30px;
 }
@@ -134,12 +143,18 @@ body{
 
 .button{
     border: none;
-    background-color: #1c44e4;
+    background: linear-gradient(to right, blue 0%, red 51%, blue 100%);
+    background-size: 200% auto;
     color: #ffffff;
     font-weight: 500;
     font-size: 14px;
     padding: 20px 40px;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-position: right center;
 }
 
 .main-section__social-networks a{
@@ -172,7 +187,9 @@ body{
 .statistics__number{
     font-size: 27px;
     margin-bottom: 5px;
-    color: #1c44e4;
+    background: linear-gradient(90deg, blue 0%, rgb(192, 92, 109) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .statistics__title{
