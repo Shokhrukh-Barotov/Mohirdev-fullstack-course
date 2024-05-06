@@ -190,6 +190,7 @@ body{
     background: linear-gradient(90deg, blue 0%, rgb(192, 92, 109) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .statistics__title{
