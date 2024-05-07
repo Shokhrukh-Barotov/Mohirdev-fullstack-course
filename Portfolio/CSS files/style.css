@@ -8,7 +8,7 @@
 }
 
 .main-section{
-    padding: 100px 30px;
+    padding: 7.5rem 1.87rem;
 }
 
 .main-section > div{
@@ -25,53 +25,37 @@
 }
 
 .main-section__welcome{
-    font-size: 16px;
+    font-size: 1rem; 
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     letter-spacing: 2;
     color: #797979;
 }
 
 .main-section__introduction{
-    margin-top: 20px;
-    font-size: 60px;
+    margin-top: 1.25rem;
+    font-size: 3.75rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: #05364e;
 }
 
 .main-section__position{
-    margin-bottom: 20px;
-    font-size: 20px;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #05364e;
 }
 
 .main-section__action{
-    margin-top: 30px;
-}
-
-.button{
-    border: none;
-    background: linear-gradient(to right, blue 0%, red 51%, blue 100%);
-    background-size: 200% auto;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.button:hover{
-    background-position: right center;
+    margin-top: 1.87rem;
 }
 
 .main-section__social-networks a{
     color: #8fa1aa;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: inline-block;
-    margin-right: 30x;
+    margin-right: 1.87rem;
     cursor: pointer;
 }
 
@@ -82,21 +66,21 @@
 /*Statistics*/
 
 .statistics{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .statistics__item{
     display: inline-block;
     background-color: #f8faff;
     text-align: center;
-    padding: 5px 10px;
-    margin-right: 50px;
+    padding: 0.32rem 0.625rem;
+    margin-right: 3.2rem;
     width: 150px;
 }
 
 .statistics__number{
-    font-size: 27px;
-    margin-bottom: 5px;
+    font-size: 1.69rem;
+    margin-bottom: 0.32rem;
     background: linear-gradient(90deg, blue 0%, rgb(192, 92, 109) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -104,7 +88,7 @@
 }
 
 .statistics__title{
-    font-size: 16px;
+    font-size: 1rem;
     color: #797979;
     font-weight: 300;
 }
@@ -112,7 +96,7 @@
 /*About me*/
 
 .about-me{
-    padding: 100px 0;
+    padding: 6.25rem 0;
 }
 
 .about-me div{
@@ -125,21 +109,22 @@
 }
 
 .about-me__description{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 300;
-    color: #797979;line-height: 27px;
+    color: #797979;
+    line-height: 1.69rem;
 }
 
 /*Services section*/
 
 .services{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .service-card{
     display: inline-block;
     width: 30%;
-    padding: 60px 30px;
+    padding: 3.75rem 1.87rem;
     background-color: #f8faff;
     margin-right: 3%;
     text-align: center;
@@ -148,21 +133,21 @@
 
 .service-card__title{
     color: #05364d;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-transform: uppercase;
 }
 
 .service-card__description{
-    font-size: 14px;
-    line-height: 27px;
+    font-size: 0.87rem;
+    line-height: 1.68rem;
     font-weight: 300;
     color: #797979;
 }
 
 .service-card__link{
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 500;
     text-transform: uppercase;
     color: #05364d;
@@ -170,7 +155,7 @@
 }
 
 .service-card img{
-    width: 200px;
+    width: 6.25rem;
 }
 
 .service-card:hover{
@@ -200,24 +185,24 @@
 }
 
 .client-item__info{
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 3.12rem;
+    padding-left: 3.12rem;
 }
 
 .client-item__name{
-    font-size: 20px;
-    margin-bottom: 4px;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .client-item__position{
-    font-size: 14px;
+    font-size: 0.87rem;
     font-weight: 300;
     color: #5b6d75;
 }
 
 .client-item__review{
-    font-size: 14px;
-    line-height: 27px;
+    font-size: 0.87rem;
+    line-height: 1.68rem;
     font-weight: 300;
     color: #5b6d75;
 }
@@ -233,20 +218,20 @@
 /*Portfolio section*/
 
 .portfolio{
-    padding: 100px 0;
+    padding: 6.25rem 0;
     height: 1450px;
 }
 
 .portfolio-filters{
     list-style: none;
     padding-left: 0;
-    margin-top: 50px;
+    margin-top: 3.12rem;
 }
 
 .portfolio-filters li{
     display: inline-block;
-    margin-right: 40px;
-    font-size: 13px;
+    margin-right: 2.5rem;
+    font-size: 0.81rem;
     font-weight: 400;
     cursor: pointer;
 }
@@ -256,7 +241,7 @@
     color: #1245e6;
 }
 .portfolio-items{
-    margin-top: 50px;
+    margin-top: 3.25rem;
     position: relative;
 }
 
@@ -265,7 +250,8 @@
     display: inline-block;
     cursor: pointer;
     width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+    box-sizing: border-box;
 }
 
 .portfolio-item-2{
@@ -273,8 +259,8 @@
     top: 0;
     right: 0;
     width: 50%;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding-left: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .portfolio-item-3{
@@ -327,11 +313,11 @@
 /*Blog*/
 
 .blog{
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 .blog-items{
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .blog-item{
@@ -355,37 +341,37 @@
 
 .blog-item__info{
     background-color: f8faff;
-    padding: 10px;
+    padding: 0.625rem;
     color: #797979;
 }
 
 .blog-item__main-info span{
-    font-size: 14px;
-    margin-right: 30px;
+    font-size: 0.87rem;
+    margin-right: 1.87rem;
     font-weight: lighter;
 }
 
 .blog-item__info i{
-    margin-right: 5px;
-    padding: 30px;
+    margin-right: 0.31rem;
+    padding: 1.81rem;
 }
 
 .blog-item__title{
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     color: #05364d;
     font-weight: 700;
 }
 
 .blog-item__description{
-    line-height: 27px;
+    line-height: 1.69rem;
     font-weight: lighter;
     font-size: 15px;
 }
 
 .blog-item__learn-more{
-    font-size: 13px;
+    font-size: 0.81rem;
     font-weight: 500;
     text-transform: uppercase;
     color: #05364d;
@@ -399,7 +385,8 @@
 /*Partners section*/
 
 .partners{
-    padding-top: 100px;
+    padding-top: 6.25rem;
+    padding: 0 1,87rem;
 }
 
 .partner{
