@@ -85,6 +85,7 @@ body{
     display: inline-block;
     vertical-align: middle;
 }
+
 .main-navigation__item{
     display: inline-block;
     padding-left: 0.625rem;
@@ -108,7 +109,7 @@ body{
 /*Footer section*/
 
 .footer{
-    padding: 50px 0;
+    padding: 100px 0;
     margin-top: 50px;
     background-color: #021017;
     text-align: center;
@@ -159,4 +160,33 @@ body{
 
 .footer__text{
     color: #797979;
+}
+
+@media only screen and (max-width: 991px){
+    .container{
+        width: 95%;
+    }
+    .main-navigation{
+        display: none;
+    }
+
+    /*Footer*/
+    .footer__navigation{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 92%;
+    }
+    .main-navigation{
+        display: none;
+    }
+
+    /*Footer*/
+    .footer__navigation{
+        display: none;
+    }
 }
