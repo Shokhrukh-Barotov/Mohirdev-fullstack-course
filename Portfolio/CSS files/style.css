@@ -129,6 +129,7 @@
     margin-right: 3%;
     text-align: center;
     box-sizing: border-box;
+    transition: all 0.4s ease 0s;
 }
 
 .service-card__title{
@@ -282,6 +283,7 @@
     background-color: rgba(19, 69, 230, 0.9);
     visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info{
@@ -290,6 +292,7 @@
     left: 80px;
     color: white;
     visibility: hidden;
+    transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info a{
@@ -325,6 +328,7 @@
     width: 30%;
     margin-right: 3%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .blog-item:hover{
@@ -337,6 +341,16 @@
 
 .blog-item__image img{
     width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
+}
+
+.blog-item__image{
+    overflow: hidden;
+}
+
+.blog-item:hover .blog-item__image img{
+    transform: scale(1.1);
 }
 
 .blog-item__info{
@@ -392,6 +406,10 @@
 .partner{
     display: inline-block;
     padding: 0 30px;
+}
+
+.partner img{
+    width: 80px;
 }
 
 @media only screen and (max-width: 991px){
