@@ -60,11 +60,13 @@
         </div>
         <form action="/server.php" method="GET">
             <textarea rows="10" name="" id="" placeholder="Enter message"></textarea>
-            <div class="half-row contact__firstname">
+            <div class="half-flex">
+              <div class="contact__firstname">
                 <input type="text" placeholder="Name" name="firstname">
-            </div>
-            <div class="half-row contact__email">
+              </div>
+              <div class="contact__email">
                 <input type="email" placeholder="Email" name="email">
+              </div>
             </div>
             <input type="text" placeholder="Subject" name="subject">
             <button class="button contact__send" type="submit" >Send</button>

@@ -22,18 +22,18 @@ input:focus{
     box-shadow: none;
 }
 
-.half-row{
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
+.half-flex{
+    display: flex;
 }
 
 .contact__firstname{
     padding-right: 1.25rem;
+    flex: 1;
 }
 
 .contact__email{
     padding-left: 1.25rem;
+    flex: 1;
 }
 
 .contact__send{
@@ -41,8 +41,8 @@ input:focus{
 }
 
 @media only screen and (max-width: 991px) {
-    .half-row{
-        width: 100%;
+    .half-flex{
+        flex-direction: column;
     }
 
     .contact__firstname,
